@@ -1,0 +1,25 @@
+/* NavBar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+/* HeroBanner */
+.hero-banner {
+  background-image: url('./path-to-your-banner-image.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+/* Other styles for ServicesSection, TestimonialsSection, ContactForm, Footer */
+/* ... */

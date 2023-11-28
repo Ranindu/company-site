@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import React from 'react';
+// import bannerImage from './images/banners/myBanner-1920x595.png'; // Update this path
+
+// function LandingPage() {
+//   return (
+//     <div>
+//       <h1>Welcome to Our Business</h1>
+//       <img src={bannerImage} alt="Banner" />
+//       {/* You can add more images and content here */}
+//     </div>
+//   );
+// }
+
+// export default LandingPage;
+
+
+
+import React from 'react';
 import './App.css';
+import LandingPage from './LandingPage'; // Import LandingPage component
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage /> {/* Render the LandingPage component */}
     </div>
   );
 }
